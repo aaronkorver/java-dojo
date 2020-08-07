@@ -49,10 +49,9 @@ Superhero(String nameIn)
 
 Lastly, we need to update where we create our Superhero to pass in the name.
 
-```java
- Superhero me = new Superhero("Groot");
- 
- ```
+
+`Superhero me = new Superhero("Groot");`
+
 
  We can add more parameters to the constructor, make sure you separate them with a comma.  Let's add the `eyecolor` parameter as well.
 
