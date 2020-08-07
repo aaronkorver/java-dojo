@@ -14,7 +14,7 @@ This is an example of creating an object in Java.  There is a special keyword `n
 
 ## Default Constructors
 
-If you look at the class right now, you will see that there doesn't look like there is a constructor there!  What is happening? 
+If you look at the class right now, you will see that there doesn't look like there is a constructor there!  What is happening?
 
 All classes will by default get an empty constructor added to them by the compiler.  A default constructor looks like this:
 
@@ -49,9 +49,7 @@ Superhero(String nameIn)
 
 Lastly, we need to update where we create our Superhero to pass in the name.
 
-
 `Superhero me = new Superhero("Groot");`
-
 
  We can add more parameters to the constructor, make sure you separate them with a comma.  Let's add the `eyecolor` parameter as well.
 
