@@ -5,16 +5,7 @@ nav:
     - Introduction: beginner/00-introduction.md
     - Objects: beginner/01-objects.md
     - Variables: beginner/02-variables.md
-    - Loops: trinket/04-loops.md
-    - Conditional: trinket/05-conditionals.md
-    - Functions: trinket/06-functions.md
-    - Flower: trinket/07-flower.md
-    - Function Parameters: trinket/07-function-parameters.md
-    - Lists: trinket/08-list.md
-    - Random Numbers: trinket/08-random.md
-    - Random Stars: trinket/13-random-stars.md
-    - Input: trinket/11-input.md
-    - Recursion: trinket/12-recursion.md
+    - Data Types: beginner/03-datatypes.md
   - Contributing:
     - How to Contribute Examples: contribute.md
   - Contact:
