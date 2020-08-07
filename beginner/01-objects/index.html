@@ -61,6 +61,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#lesson-1" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -239,10 +244,52 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Objects
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
     
     <a href="./" title="Objects" class="md-nav__link md-nav__link--active">
       Objects
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#repl-link" class="md-nav__link">
+    Repl link
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instructions" class="md-nav__link">
+    Instructions
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -475,6 +522,45 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#repl-link" class="md-nav__link">
+    Repl link
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instructions" class="md-nav__link">
+    Instructions
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -488,9 +574,40 @@
                   
                 
                 
-                  <h1>Objects</h1>
-                
-                
+                <h1 id="lesson-1">Lesson 1</h1>
+<h2 id="repl-link">Repl link</h2>
+<p>https://repl.it/@AaronKorver1/Lesson-1-Objects</p>
+<h2 id="instructions">Instructions</h2>
+<p>Welcome to the first lesson.  We are going to talk about Object Oriented Languages and specifically the Java language.</p>
+<p>Object Oriented or OO languages are built around the concept of an Object.  We can think of an Object as a container that has a name, it has some properties, and it has some functionality.  The computer can make many copies of an object and give them all different names and different properties.</p>
+<p>We describe an object in something called a Class.  A class in Java is a way for us to tell the computer all the different aspects of the object.  The class serves as a template for all the objects that Java will create.  This is easier to show than to read about!</p>
+<p>Open the file "Superhero.java".  This is a class!  It has a name "Superhero" that we will use to tell Java that we want an object of TYPE "Superhero".  You can see that it has a single property right now, and the property is called "name".</p>
+<div class="codehilite"><pre><span></span><code><span class="c1">//This class holds our superhero information</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Superhero</span> 
+<span class="p">{</span>
+  <span class="n">String</span> <span class="n">name</span> <span class="o">=</span> <span class="s">&quot;&quot;</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+
+<p>Now, open the file "Main.java".  Take a look at line 4.  Here we are creating our first object.  The syntax here is important.  We start with the type of Object we want.  In this case it is "Superhero".  Then we have to give this Object a name.  Each Object needs a unique name.</p>
+<div class="codehilite"><pre><span></span><code><span class="kd">class</span> <span class="nc">Main</span> <span class="p">{</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">//We are going to create a new superhero!</span>
+    <span class="n">Superhero</span> <span class="n">myName</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Superhero</span><span class="p">();</span>
+    <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Hello &quot;</span> <span class="o">+</span> <span class="n">myName</span><span class="p">.</span><span class="na">name</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+
+<p>Rename this Object to be YOUR name.</p>
+<p>Now, on line 5, also replace the word "myName" with the same name that you gave your superhero.</p>
+<p>Let's run this and see what happens.</p>
+<p>You should see "Hello".  Why is that?  Can you read the code and think through it?</p>
+<p>Notice on line 5 that we are using the "name" property of the Superhero.  In our Superhero class, we didn't give this a value!  Let's fix that.</p>
+<p>Open the Superhero.java file.  On line 4, set the "name" property to your secret SuperHero name!  My favorite is "Groot".</p>
+<p>Now run the code again and see what it prints out.</p>
                 
               
               
