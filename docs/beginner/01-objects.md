@@ -2,7 +2,7 @@
 
 ## Repl link
 
-https://repl.it/@AaronKorver1/Lesson-1-Objects
+[Lesson 1](https://repl.it/@AaronKorver1/Lesson-1-Objects)
 
 ## Instructions
 
