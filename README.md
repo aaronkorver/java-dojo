@@ -1,7 +1,5 @@
-# python
-Tools, content to and tutorials help teach python to CoderDojo students.
-
-Documentation:[https://coderdojotc.github.io/python/](https://coderdojotc.github.io/python/) 
+# Java
+Tools, content to and tutorials help teach Java to CoderDojo students.
 
 All content is licensed as free to use by all educational institutions according to the Creative Commons Share Alike Attribution 4.2 License:
 
