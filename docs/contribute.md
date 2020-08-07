@@ -1,4 +1,4 @@
-## How to Contribute to Our Learning Python Library
+## How to Contribute to Our Learning Java Library
 
 We are an all-volunteer organization.  So we don't yet have any paid staff to curate new content.  However, we do value your input and will consider all contributions as our volunteer time permits.  We especially value teachers that would like to integrate coding, data science and AI into your classrooms in new and innovative ways.
 
