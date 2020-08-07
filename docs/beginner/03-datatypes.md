@@ -2,7 +2,7 @@
 
 ## Repl
 
-https://repl.it/@AaronKorver1/Lesson-3-Data-types
+[Lesson 3](https://repl.it/@AaronKorver1/Lesson-3-Data-types)
 
 ## Data Types
 

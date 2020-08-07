@@ -2,7 +2,7 @@
 
 ## Repl link
 
-[Lesson 1](https://repl.it/@AaronKorver1/Lesson-2-Variables#Instructions.txt)
+[Lesson 2](https://repl.it/@AaronKorver1/Lesson-2-Variables#Instructions.txt)
 
 ## Instructions
 
