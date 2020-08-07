@@ -4,7 +4,7 @@ nav:
   - Beginning Java - Repl.it:
     - Introduction: beginner/00-introduction.md
     - Objects: beginner/01-objects.md
-    - Variable: trinket/03-variables.md
+    - Variables: beginner/02-variables.md
     - Loops: trinket/04-loops.md
     - Conditional: trinket/05-conditionals.md
     - Functions: trinket/06-functions.md
